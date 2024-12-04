@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: linear-gradient(to right, #d902a0 , #c56026);
+}
+.container {
+    position: fixed;
+    display: flex; /* Add this */
+    flex-direction: column; /* Add this if you want items stacked vertically */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    height: 100vh; /* Ensure it takes full height */
+}
+
+.translator{
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#inputWord {
+  text-align: center;
+  padding: 10px;
+  width: 350px;
+  height: 10px;
+  border-style: solid;
+  border-color: aqua;
+  border-width: 2px;
+  border-radius: 50px;
+}
+#outputWord {
+  text-align: center;
+  padding: 10px;
+  width: 350px;
+  height: 10px;
+  border-style: solid;
+  border-color: aqua;
+  border-width: 2px;
+  border-radius: 50px;
+} 
+#translateBtn {
+  width: 395px;
+  height: 45px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: blanchedalmond;
+  border-radius: 50px;
+  font-size: 16px;
+  background-color: aquamarine;
+  text-align: center;
+  cursor: pointer;
+}
+#translateBtn:hover {
+  background-color: #4b85c4;
+}
+.footer{
+  position: fixed;
+  bottom: 10px;
+}
+.footer a{
+  text-decoration: none;
+}
+
+
